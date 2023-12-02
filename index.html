@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <script defer src="app.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Programmeren 8 eindopdracht herkansing</title>
+</head>
+
+<body>
+<div><h1>Predict the age of a crab!</h1></div>
+<h3>Fill in the form for an age prediction:</h3>
+<form id="" action="">
+    <label>Length in feet:</label>
+    <input type="text" value="" id="length" placeholder="Length" required><br/>
+
+    <label>Diameter in feet:</label>
+    <input type="text" value="" id="diameter" placeholder="Diameter" required><br/>
+
+    <label>Height in feet:</label>
+    <input type="text" value="" id="height" placeholder="Height" required><br/>
+
+    <label>Weight in ounces:</label>
+    <input type="text" value="" id="weight" placeholder="Weight" required><br/>
+
+    <label>Shucked Weight in ounces (weight without the shell):</label>
+    <input type="text" value="" id="shuckedWeight" placeholder="Shucked Weight" required><br/>
+
+    <label>Viscera Weight in ounces (weight that wraps around your abdominal organs deep inside body):</label>
+    <input type="text" value="" id="visceraWeight" placeholder="Viscera Weight" required><br/>
+
+    <label>Shell weight in ounces (Weight of the Shell):</label>
+    <input type="text" value="" id="shellWeight" placeholder="Shellweight" required><br/>
+
+    <button id="predict">Predict</button>
+</form>
+
+<h2 id="prediction"></h2>
+
+</body>
+
+</html>
